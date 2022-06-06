@@ -1,0 +1,3 @@
+schoolmedia/* usr/share/schoolmedia/
+make-schoolmedia-link usr/bin/
+schoolmedia-start.desktop etc/xdg/autostart/
