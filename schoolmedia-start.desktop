@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Schoolmedia user folder maker
+TryExec=make-schoolmedia-link
+Exec=make-schoolmedia-link
+StartupNotify=false
+NoDisplay=true
+
+X-GNOME-Autostart-Phase=Initialization
+X-KDE-autostart-phase=1

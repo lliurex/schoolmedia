@@ -1,0 +1,11 @@
+#!/bin/bash
+
+set -e
+
+[ -n "$HOME" ] || exit 0
+[ -d "/usr/share/schoolmedia" ] || exit 0
+[ -L "$HOME/schoolmedia" ] || ln -s /usr/share/schoolmedia $HOME/schoolmedia
+
+exit 0
+
+
