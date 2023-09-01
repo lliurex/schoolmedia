@@ -1,0 +1,14 @@
+Source: schoolmedia
+Section: graphics
+Priority: optional
+Maintainer: M.Angel Juan <m.angel.juan@gmail.com>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.1
+Homepage: https://github.com/lliurex/schoolmedia
+
+Package: schoolmedia
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, bash
+Description: Clipart & sounds for classroom
+ Clipart & sounds intendeed to be used on classroom by kids
+
